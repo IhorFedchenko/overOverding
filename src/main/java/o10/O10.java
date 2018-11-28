@@ -2,9 +2,11 @@ package o10;
 
 public class O10 {
 }
+//Статические переменные коректно записывать через имя класа, как в коментарии,
+//по этому Child.first() выведет "Parent"
 class Parent {
     String first() {
-        return second;
+        return /*Parent.*/second;
     }
     static String second = "Parent";
 }

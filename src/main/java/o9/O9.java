@@ -3,6 +3,7 @@ package o9;
 public class O9 {
 }
 class Parent {
+//    Унаследованный метод позвращает переопределенный метод.
     String first() {
         return second();
     }

@@ -3,8 +3,9 @@ package o7;
 public class O7 {
 }
 class Parent {
+    //каждый наследник вызывает конструктор родителя, поэтому конструктор по умолчанию must have
     Parent(){
-        //без дефольтного конструктора Parent(){...} нельзя унаследовать созданный конструктор.
+
     }
     Parent(int i) {
         System.out.println("Parent(int)");

@@ -10,7 +10,9 @@ class ChildMessage extends ParentMessage {
 }
 class Test {
     public static void main(String[] args) {
-        send(new ChildMessage());
+  send(new ChildMessage()); //тут будет как нижнем коменте, который выведет Parent, так работает статика.
+        /*ParentMessage parentMessage = new ChildMessage();
+        System.out.println(parentMessage.call);*/
     }
     public static void send(ParentMessage msg) {
         System.out.println(msg.call);

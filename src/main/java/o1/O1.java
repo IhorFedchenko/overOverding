@@ -3,6 +3,8 @@ package o1;
 public class O1 {
 }
 class ParentMessage {
+//    msg.call(); как бы Parent, но в метод можно передать вполне законно его наследника
+//    что и вызовет метод наследника.
     void call() {
         System.out.println("Parent");
     }

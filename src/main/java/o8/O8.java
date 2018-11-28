@@ -2,9 +2,12 @@ package o8;
 
 public class O8 {
 }
+
 class Parent {
     String first() {
-        return second;
+        //этот комент показывает какой будет унаследование
+//        т.е. в Child будет возврат second от Parent
+        return /*this.*/second;
     }
 
     String second = "Parent";
