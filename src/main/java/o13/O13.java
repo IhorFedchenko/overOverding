@@ -3,7 +3,9 @@ package o13;
 public class O13 {
 }
 class Parent {
-    static String first() {
+// Статика не может возвращать инстанс!!!
+    /*static*/ String first() {
+
         return second();
     }
     String second() {

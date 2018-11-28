@@ -20,6 +20,7 @@ class Child extends Parent {
 }
 class Test {
     public static void main(String[] args) {
-        new Child(0,0);
+        //конструктор нельзя унаследовать, должен быть такой же как и в классе.
+//        new Child(0,0);
     }
 }

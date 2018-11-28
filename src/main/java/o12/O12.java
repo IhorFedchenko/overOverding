@@ -3,7 +3,8 @@ package o12;
 public class O12 {
 }
 class Parent {
-    static String first() {
+    /*static */String first() {
+        //инстанс переменная не может быть возвращена в статическом методе.
         return second;
     }
     String second = "Parent";
