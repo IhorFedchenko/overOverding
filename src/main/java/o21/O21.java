@@ -2,6 +2,7 @@ package o21;
 
 public class O21 {
 }
+// TODO единственный квиз второй части в котором допустил ошибку
 abstract class A {
     String first() {return second();}
     abstract String second();
