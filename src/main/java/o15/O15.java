@@ -2,9 +2,10 @@ package o15;
 
 public class O15 {
 }
+//Унаследованный метод все равно вызывает так как закоментировано.
 class Parent {
     static String first() {
-        return second();
+        return /*Parent.*/second();
     }
     static String second() {
         return "Parent";

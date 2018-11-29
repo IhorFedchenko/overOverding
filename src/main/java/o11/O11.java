@@ -2,9 +2,11 @@ package o11;
 
 public class O11 {
 }
+//Закоментировано то что происходит на самом деле. Статические методы и переменные вызываются через имя класса.
+//
 class Parent {
     String first() {
-        return second();
+        return /*Parent.*/second();
     }
     static String second() {
         return "Parent";
